@@ -35,14 +35,12 @@ you can simply change icons in climacons folders
 4. Change the location: Location is based on latitude and longitude change that on fetchWeatherData > url you can get that in docs downblow
 
 ## Usage
-1. add <weather-widget></weather-widget> where you want to add widget
-2. enjoy the widget
-3. if you dont have the files in same directory you need to pass url to the function
-example for django:
-<weather-widget static-url="{% static 'dir/weather-widget' %}"></weather-widget>
-dir is your path and weather-widget is your folder
-if you dont know how to change function to use that path variable look at the example file
-To change temputure or language just change these two variables : isCelsius - currentLang
+- add ```<weather-widget></weather-widget>``` where you want to add widget
+- enjoy the widget
+- if you dont have the files in same directory you need to pass url to the function
+- example for django: ``` <weather-widget static-url="{% static 'dir/weather-widget' %}"></weather-widget> ``` dir is your path and weather-widget is your folder
+- if you dont know how to change function to use that path variable look at the example file
+- To change temputure or language just change these two variables : isCelsius - currentLang
 
 ## API Docs
 [Open Meteo Docs](https://open-meteo.com/en/docs)
