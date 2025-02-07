@@ -1,0 +1,121 @@
+.weather-widget {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.current-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.current-weather h2 {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.current-weather img {
+    width: 70px; /* Larger size */
+    height: 70px;
+}
+
+.current-weather .weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    margin-left: auto; /* Ensure it stays in the same row */
+}
+
+#temperature {
+    font-size: 1.5em; /* Smaller size */
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+#description {
+    font-size: 1em;
+    margin: 0;
+    color: gray;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+    margin: 2px;
+    background-color: white; /* Same color as the widget background */
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.day:nth-child(odd) {
+    background-color: rgba(234, 234, 234, 0.8); /* Lighter shade of gray */
+}
+
+.day img {
+    width: 30px;
+    height: 30px;
+}
+
+.day p {
+    margin: 2px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.day .high {
+    color: red;
+}
+
+.day .low {
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    #temperature {
+        font-size: 1.2em;
+    }
+
+    .current-weather p, .day p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .day {
+        width: 40px;
+    }
+
+    .day img {
+        max-width: 30px;
+    }
+
+    #temperature {
+        font-size: 1em;
+    }
+
+    .current-weather p, .day p {
+        font-size: 0.7em;
+    }
+}
