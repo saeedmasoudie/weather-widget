@@ -32,6 +32,7 @@ you can simply change icons in climacons folders
 1. Download Zip File and extarct it
 2. Put Styles in same directory with js file
 3. Change Files directory depends on your projects
+4. Change the location: Location is based on latitude and longitude change that on fetchWeatherData > url you can get in in docs downblow
 
 ## Usage
 1. add <weather-widget></weather-widget> where you want to add widget
