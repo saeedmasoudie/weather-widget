@@ -37,7 +37,7 @@ you can simply change icons in climacons folders
 ## Usage
 1. add <weather-widget></weather-widget> where you want to add widget
 2. enjoy the widget
-if you dont have the files in same directory you need to pass url to the function
+3. if you dont have the files in same directory you need to pass url to the function
 example for django:
 <weather-widget static-url="{% static 'dir/weather-widget' %}"></weather-widget>
 dir is your path and weather-widget is your folder
