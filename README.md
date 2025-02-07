@@ -5,6 +5,7 @@ you can simply change icons in climacons folders
 # Weather Widget
 ![FA](/screenshots/img1.jpg?raw=true "Optional Title")
 ![EN](/screenshots/img2.jpg?raw=true "Optional Title")
+
 **Brief Description**: A simple weather widget without any signup and api key using open-meteo
 
 ## Table of Contents
