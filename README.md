@@ -17,8 +17,8 @@ you can simply change icons in climacons folders
 6. [Contact](#contact)
 
 ## Introduction
-- **What**: This is a simple widget for you project without signup and any problems.
-- **limits**: 600 API calls per minute | 5,000 API calls per hour | 10,000 API calls per day
+- **What is this**: This is a simple widget for you project without signup and any problems.
+- **is there any limits**: 600 API calls per minute | 5,000 API calls per hour | 10,000 API calls per day
 
 ## Features
 - Simple , Light.
