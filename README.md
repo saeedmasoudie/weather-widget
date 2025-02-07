@@ -3,7 +3,8 @@ weather widget without any signup and api key using open-meteo
 you can simply change icons in climacons folders
 
 # Weather Widget
-
+![FA](/screenshots/img1.jpg?raw=true "Optional Title")
+![EN](/screenshots/img2.jpg?raw=true "Optional Title")
 **Brief Description**: A simple weather widget without any signup and api key using open-meteo
 
 ## Table of Contents
@@ -23,6 +24,7 @@ you can simply change icons in climacons folders
 - No need to signup.
 - Animated icons SVG.
 - Multi Language : Fa , EN , RU
+- Multi Temputure
 - Persian Numbers and RTL styles for Persian language
 
 ## Installation
@@ -38,6 +40,7 @@ example for django:
 <weather-widget static-url="{% static 'dir/weather-widget' %}"></weather-widget>
 dir is your path and weather-widget is your folder
 if you dont know how to change function to use that path variable look at the example file
+To change temputure or language just change these two variables : isCelsius - currentLang
 
 ## API Docs
 [Open Meteo Docs](https://open-meteo.com/en/docs)
