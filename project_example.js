@@ -246,5 +246,3 @@ function getWeatherIcon(code, staticUrl) {
     };
     return icons[code] || `${staticUrl}/climacons/climacon-question-mark.svg`;
 }
-
-fetchWeatherData();
